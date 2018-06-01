@@ -9,7 +9,7 @@ using namespace std;
  
 
    string s;
-   cins >> s;
+   cin >> s;
    	cout << "Hello " << s << "!" << endl;
   }
    return 0;
