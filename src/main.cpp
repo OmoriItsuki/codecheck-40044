@@ -5,7 +5,7 @@ using namespace std;
  {
  // start from 1 to ignore script name; argv[0] will be a name of processing file.
   for (int i = 1; i < argc; i++) {
-    printf ("argv[%i]: Hello %s!\n", i, argv[i]);
+    printf ("Hello %s!\n", i, argv[i]);
  
 
   }
